@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("api/user")
+@CrossOrigin
 public class UserController {
 
     private final UserRepository repository;
