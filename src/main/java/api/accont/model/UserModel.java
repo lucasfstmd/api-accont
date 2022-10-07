@@ -13,10 +13,9 @@ import javax.persistence.*;
 public class UserModel {
 
     @Id
+    @Column(unique = true)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-
-    @Column(unique = true)
     private String login;
     private String password;
 

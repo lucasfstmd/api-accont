@@ -11,7 +11,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class  ApiAccontApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(api.accont.apiAccontApplication.class, args);
+		SpringApplication.run(api.accont.ApiAccontApplication.class, args);
 	}
 
 	@Bean
