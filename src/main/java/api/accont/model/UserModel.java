@@ -1,5 +1,9 @@
 package api.accont.model;
 
+/*
+Modelo da tabela
+ */
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

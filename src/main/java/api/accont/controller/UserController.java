@@ -33,6 +33,13 @@ public class UserController {
         return  ResponseEntity.ok(repository.save(user));
     }
 
+    /*@PutMapping(value = "/{id}")
+    public ResponseEntity<Optional<UserModel>> atualizarUsuario(@PathVariable Integer id, @RequestBody UserModel user){
+        Optional<UserModel> objUser = repository.update(id, user);
+        return  ResponseEntity.ok(repository.save(objUser));
+    }
+    */
+
     @GetMapping("/validarSenha")
     public ResponseEntity<Boolean> validarSenha(@RequestParam String login, @RequestParam String password){
 
